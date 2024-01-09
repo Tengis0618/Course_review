@@ -1,0 +1,140 @@
+body {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #888888;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #141c4a; /* Dark blue background for the nav section */
+}
+
+.parallel {
+    display: flex;
+}
+
+#content {
+    width: 85%;
+}
+
+header {
+    text-align: center;
+    background-color: #141c4a; /* Match the background color of the nav section */
+    padding: 20px 0;
+}
+
+.about-session {
+    margin-top: 300px;
+    font-size: 14px;
+    color: #f0f0f0;
+    text-align: left;
+    background-color: #141c4a;
+    padding: 5px;
+
+}
+
+#content {
+    padding: 20px;
+    background-color: #fff;
+}
+
+h3 {
+    margin: 5px 0;
+    color: #fff;
+}
+
+nav {
+    background-color: #141c4a; /* Dark blue background */
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ------------ index --------------------*/
+.review-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.review-table th, .review-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.review-text {
+    font-style: italic;
+    color: #333;
+}
+/* ------------ review-add --------------------*/
+
+.review-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input,
+  .form-select,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .form-select {
+    height: 40px;
+  }
+  
+  .form-button {
+    background-color: #1259a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #141c4a;
+  }
+  

@@ -1,0 +1,40 @@
+
+<h1>All The Reviews</h1>
+<form action="/" method="GET">
+  <label for="semester">Semester:</label>
+  <select name="semester" id="semester">
+    <option value="all">All</option>
+    <option value="spring">Spring</option>
+    <option value="fall">Fall</option>
+  </select>
+
+  <label for="year">Year:</label>
+  <input type="text" name="year" id="year" placeholder="Enter Year">
+
+  <label for="professor">Professor:</label>
+  <input type="text" name="professor" id="professor" placeholder="Enter Professor">
+
+  <input type="submit" value="Submit">
+</form>
+<table class="review-table">
+    <tr>
+        <th class="course-number">Course Number</th>
+        <th class="course-name">Course Name</th>
+        <th class="semester">Semester</th>
+        <th class="year">Year</th>
+        <th class="professor">Professor</th>
+        <th class="review">Review</th>
+    </tr>
+    {{#each reviews}}
+        <tr>
+        <td>{{this.courseNumber}}</td>
+        <td>{{this.courseName}}</td>
+        <td>{{this.semester}}</td>
+        <td>{{this.year}}</td>
+        <td>{{this.professor}}</td>
+        <td class="review-text">{{this.review}}</td>
+        </tr>
+    {{/each}}
+</table>
+
+

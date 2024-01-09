@@ -1,0 +1,24 @@
+<form action="" method="post" class="review-form">
+  <label for="courseNumber" class="form-label">Course Number:</label>
+  <input type="text" id="courseNumber" name="courseNumber" class="form-input" required />
+
+  <label for="courseName" class="form-label">Course Name:</label>
+  <input type="text" id="courseName" name="courseName" class="form-input" required />
+
+  <label for="semester" class="form-label">Semester:</label>
+  <select id="semester" name="semester" class="form-select" required>
+    <option value="Spring">Spring</option>
+    <option value="Fall">Fall</option>
+  </select>
+
+  <label for="year" class="form-label">Year:</label>
+  <input type="number" id="year" name="year" class="form-input" required />
+
+  <label for="professor" class="form-label">Professor's Name:</label>
+  <input type="text" id="professor" name="professor" class="form-input" required />
+
+  <label for="review" class="form-label">Review:</label>
+  <textarea id="review" name="review" class="form-textarea" required></textarea>
+
+  <button type="submit" class="form-button">Submit Review</button>
+</form>
